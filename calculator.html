@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="../css/calculator.css">
+
+    <script src="../js/calculator.js" defer></script>
+</head>
+
+<body>
+
+    <div class="calculator">
+
+        <h2>Calculator</h2>
+
+        <input type="text" id="display" readonly>
+
+        <div class="buttons">
+
+            <button onclick="appendvalue('7')">7</button>
+            <button onclick="appendvalue('8')">8</button>
+            <button onclick="appendvalue('9')">9</button>
+            <button onclick="appendvalue('/')">/</button>
+
+            <button onclick="appendvalue('4')">4</button>
+            <button onclick="appendvalue('5')">5</button>
+            <button onclick="appendvalue('6')">6</button>
+            <button onclick="appendvalue('*')">*</button>
+
+            <button onclick="appendvalue('1')">1</button>
+            <button onclick="appendvalue('2')">2</button>
+            <button onclick="appendvalue('3')">3</button>
+            <button onclick="appendvalue('-')">-</button>
+
+            <button onclick="appendvalue('0')">0</button>
+            <button onclick="appendvalue('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="appendvalue('+')">+</button>
+
+            <button onclick="cleardisplay()">C</button>
+            <button onclick="backspace()">⌫</button>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
